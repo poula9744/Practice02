@@ -16,6 +16,7 @@ public class Ex08 {
 		System.out.print("몸무게: ");
 		int weight = sc.nextInt();
 		
+		//pdf에 식 써있음
 		double BMI = weight/(height/100)*(height/100);
 		double standard = (height-100.0)*0.9;
 				

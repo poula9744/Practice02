@@ -12,9 +12,10 @@ public class Ex01 {
 
 (2) if( j<10 ) {...} 
 
-(3) switch( 'A' ){....} char 가능
-(4) switch( 100 ){...} byte, short, int 가능
-(5) switch( "A" ){...} string 가능 
+(3) switch( 'A' ){....} ==> ()안에는 정수와 문자열만 가능하다
+
+(4) switch( 100 ){...} 정수 가능
+(5) switch( "A" ){...} 문자열 가능 
 
 (6) if( name == "홍길동" )==> if절에 참고자료형을 쓸 때에는 code.equals("홍길동")을 넣어야 한다. 
 */

@@ -16,22 +16,18 @@ public class Ex08 {
 		System.out.print("몸무게: ");
 		int weight = sc.nextInt();
 		
-		//pdf에 식 써있음
-		double BMI = weight/(height/100)*(height/100);
 		double standard = (height-100.0)*0.9;
 				
 		//조건문
 		
-		if(BMI<18.5) {
+		if(standard>weight) {
 			System.out.println("저체중 입니다");
-		} else if(BMI>=18.5 && BMI<23) {
+		} else if(standard==weight) {
 			System.out.println("표준 입니다.");
-		} else if (BMI>=23){
+		} else if (standard<weight){
 			System.out.println("과체중 입니다.");
 			
 		}
-		
-		System.out.println(BMI);
 		
 		System.out.print("표준체중: " + standard);
 

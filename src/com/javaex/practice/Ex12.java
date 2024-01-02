@@ -34,3 +34,15 @@ public class Ex12 {
 	}
 
 }
+/* int min; //작은수
+ * min = num01;
+		if(min > num02) {
+			min = num02;
+		}   				//if문 다음에 아래의 if문이 실행됩니다.(if~else문 X  비교해볼것)
+		if(min > num03) {
+			min = num03;
+		}
+		 
+		System.out.println("가장 작은수는 " +  min + " 입니다." );
+ * 
+ */

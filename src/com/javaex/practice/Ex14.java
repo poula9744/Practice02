@@ -32,3 +32,27 @@ public class Ex14 {
 	}
 
 }
+
+
+
+/* int team =num % 3;
+		
+		switch(team) {
+			case 0:
+				System.out.println("A팀입니다.");
+				break;
+				
+			case 1:
+				System.out.println("B팀입니다.");
+				break;
+				
+			case 2:
+				System.out.println("C팀입니다.");
+				break;
+			
+			default:
+				System.out.println("잘못입력하셨습니다.");
+		}
+
+
+*/

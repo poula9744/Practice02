@@ -6,17 +6,22 @@ public class Ex08 {
 
 	public static void main(String[] args) {
 		
+		double height;
+		double weight;
+		double standard;
+		
+		
 		//키와 몸무게 입력
 		Scanner sc = new Scanner(System.in);
 		System.out.println("키와 몸무게를 입력해주세요.");
 		
 		System.out.print("키: ");
-		int height = sc.nextInt();
+		height = sc.nextInt();
 		
 		System.out.print("몸무게: ");
-		int weight = sc.nextInt();
+		weight = sc.nextInt();
 		
-		double standard = (height-100.0)*0.9;
+		standard = (height-100.0)*0.9;
 				
 		//조건문
 		

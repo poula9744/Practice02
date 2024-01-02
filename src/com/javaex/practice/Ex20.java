@@ -35,3 +35,14 @@ public class Ex20 {
 	}
 
 }
+
+/*	
+ * if(	alphabet.equals("a") || alphabet.equals("e") || 
+		    alphabet.equals("i") || alphabet.equals("o") || alphabet.equals("u") ) {
+			
+			System.out.println("모음입니다.");
+		} else {
+			
+			System.out.println("자음입니다.");
+		}
+ */

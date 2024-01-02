@@ -32,3 +32,17 @@ public class Ex22 {
 	}
 
 }
+
+/*  //if문 다음에 아래의 if문이 실행됩니다.(if~else문 X  비교해볼것)
+	
+	max = number01;
+		if(max < number02) {
+			max = number2;
+		}  
+		
+		if(max < number03) {
+			max = number03;
+		}
+		 
+
+*/

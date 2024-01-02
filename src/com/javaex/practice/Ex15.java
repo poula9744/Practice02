@@ -40,3 +40,33 @@ public class Ex15 {
 	}
 
 }
+
+/* String mark;
+ * 
+ * switch(mark) {
+			case "+":
+				result = num01 + num02;
+				System.out.println( "결과는: " +  result );
+				break;
+			case "-":
+				result = num01 - num02;
+				System.out.println( "결과는: " +  result );
+				break;
+			case "*":
+				result = num01 * num02;
+				System.out.println( "결과는: " +  result );
+				break;
+			case "/":
+				if(num02==0) {
+					System.out.println( "계산할 수 없습니다." );
+				}else {
+					result = num01 / num02;
+					System.out.println( "결과는: " +  result );
+				}
+				break;
+			default:
+				System.out.println("계산할 수 없는 기호입니다.");
+				break;
+		}
+ * 
+ */
